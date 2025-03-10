@@ -4,7 +4,7 @@ This guide explains how to quickly integrate Windsurf rules into any codebase, w
 
 ## 1. Installation
 
-### Option 1: Using the Bootstrap Script (Recommended)
+### Using the Bootstrap Script (Recommended)
 
 ```bash
 # Download the bootstrap script
