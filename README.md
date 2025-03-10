@@ -8,7 +8,7 @@ This guide explains how to quickly integrate Windsurf rules into any codebase, w
 
 ```bash
 # Download the bootstrap script
-curl -o windsurf-bootstrap.sh https://gist.github.com/55fb8f9973c9d0adc56070c8f868cb79.git
+curl -o windsurf-bootstrap.sh https://gist.githubusercontent.com/j4redux/55fb8f9973c9d0adc56070c8f868cb79/raw/4acfe55d74b365097542a10f3f2531ce7e2f6f02/windsurf-bootstrap.sh
 
 # Make it executable
 chmod +x windsurf-bootstrap.sh
