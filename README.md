@@ -20,27 +20,6 @@ chmod +x windsurf-bootstrap.sh
 rm windsurf-bootstrap.sh
 ```
 
-### Option 2: Manual Setup
-
-1. Create the directory structure:
-
-   ```bash
-   mkdir -p .windsurf/rules .windsurf/templates
-   ```
-
-2. Download the base rule files:
-
-   ```bash
-   curl -o .windsurf/rules/base-config.wind https://raw.githubusercontent.com/your-username/windsurf-rules/main/rules/base-config.wind
-   curl -o .windsurf/rules/coding-style.wind https://raw.githubusercontent.com/your-username/windsurf-rules/main/rules/coding-style.wind
-   curl -o .windsurf/rules/help-commands.wind https://raw.githubusercontent.com/your-username/windsurf-rules/main/rules/help-commands.wind
-   ```
-
-3. Add to .gitignore (optional):
-   ```bash
-   echo ".windsurf/" >> .gitignore
-   ```
-
 ## 2. Project-Specific Customization
 
 After installing the base rules, customize them for your project:
